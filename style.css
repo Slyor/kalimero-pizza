@@ -1,0 +1,120 @@
+html{
+  font-family: Roboto Condensed;
+}
+body{
+  margin: 0px;
+}
+
+.header{
+  height: 100px;
+  background-color: #1f2937;
+  margin:0px;
+  color: white;
+}
+.intro{
+  background: #1f2937;
+  height: 300px;
+  margin-top: 2px;
+  color: white;
+}
+.reviews{
+  height: 500px;
+}
+.quote{
+  height: 200px;
+  background: #E5E7EB;
+}
+.signup{
+  height: 200px;
+}
+.footer{
+  height: 50px;
+  background: #1f2937;
+  color: white;
+}
+a{
+  font-size: 30px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header img{
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.header a{
+  margin: 20px;
+}
+
+.links{
+  margin-right: 200px;
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  margin: 30px;
+}
+.text strong{
+  font-size: 40px;
+}
+.text p{
+  font-size: 20px;
+  color: lightgray;
+}
+.text button{
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+}
+.image{
+  height: 80%;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+.card img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border: #3882F6 solid;
+  border-radius: 10px;
+  object-fit: cover;
+}
