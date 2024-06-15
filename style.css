@@ -14,18 +14,10 @@ body{
 .intro{
   background: #1f2937;
   height: 300px;
-  margin-top: 2px;
   color: white;
 }
 .reviews{
   height: 500px;
-}
-.quote{
-  height: 200px;
-  background: #E5E7EB;
-}
-.signup{
-  height: 200px;
 }
 .footer{
   height: 50px;
@@ -118,3 +110,105 @@ a{
   border-radius: 10px;
   object-fit: cover;
 }
+
+.quote-container{
+  height: 200px;
+  background: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 150px;
+}
+.quote{
+  color: #1F2937;
+ font-weight: bold;
+  font-size: 36px;
+  font-style: italic;
+}
+.author{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: end;
+  paddign-right: 40px;
+  font-size: 20px;
+}
+
+.signup-container{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-box{
+  background:#3882F6;
+  display: flex;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 20px;
+}
+.signup-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.signup-box .text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0px;
+}
+.signup-box .text h2{
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.signup-box .text h1, h2{
+  margin: 0px;
+}
+.signup-button button{
+  color: white;
+  background-color: #3882F6;
+  border: solid white 3px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+button{
+  cursor: pointer;
+}
+
+.footer{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.card p{
+  font-style: italic;
+}
+/* 
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #1F2937;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: gray;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-button{
+  height: 30px;
+} */
